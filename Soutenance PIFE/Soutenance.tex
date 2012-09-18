@@ -88,16 +88,16 @@
       \includegraphics[width=\linewidth]{images/logo-IP.jpg}
     \end{minipage}
     &
-    \begin{minipage}{0.8\linewidth}
-      Le laboratoire de l'Institut Pascal est composé de trois équipes regroupant au total une centaine de chercheurs.
+    \begin{minipage}{0.7\linewidth}
+      Le laboratoire de l'Institut Pascal est composé de trois équipes regroupant au total une centaine de chercheurs. Le groupe GRAVIR %GRoupe Automatique, VIsion et Robotique
+      rassemble trois équipes :
       \begin{itemize}
-      \item ComSee
-      \item Rosace
-      \item ???
+      \item ComSee %Vision par Ordinateur
+      \item Rosace %ROboticS and Autonomous Complex systEms
+      \item PerSyst %Systèmes de Perception
       \end{itemize}
     \end{minipage}
   \end{tabular}
-
 \end{frame}
 
 
@@ -117,7 +117,18 @@
     \end{minipage}
     &
     \begin{minipage}{0.5\linewidth}
-      Vélodyne
+      Velodyne LIDAR :
+      \begin{itemize}
+      \item 64 diodes laser
+      \item 1.3 millions de points/secondes
+      \item $360$\degre $\times~26.8$\degre
+      \item Fragile
+      \item 75.000\$
+      \end{itemize}
+      
+      \begin{figure}
+      \includegraphics[width=0.8\linewidth]{images/LIDAR.jpg}
+      \end{figure}
     \end{minipage}
   \end{tabular}
 \end{frame}
@@ -152,6 +163,16 @@
       VipaLab
     \end{minipage}
   \end{tabular}
+\end{frame}
+
+\subsection*{Environnement}
+\begin{frame}{Tests sur Pavin}
+
+\begin{figure}
+\includegraphics[width=0.7\linewidth]{images/pavin.jpg}
+\caption{Espace Pavin pour les simulations grandeur nature}
+\end{figure}
+% PAVIN is a site dedicated for intelligent urban vehicles. It is composed of 5000m2 space representing typical situation in urban environment: 317m of streets (asphalt) and 264m of open environment (sloppy ground, rough track). 
 \end{frame}
 
 \begin{frame}
@@ -291,7 +312,15 @@
 
 \subsection*{Création de cartes}
 \begin{frame}{Développement}
-  Sovin, loop\_closure, SSBA, robotvision
+Programmes ou librairies testés :
+\begin{itemize}
+  \item Sovin
+  \item loop\_closure
+  \item SSBA (Simple Sparse Bundle Adjustment)
+  \item RobotVision
+  \item ScaViSLAM
+  \item MRPT
+\end{itemize}
 \end{frame}
 
 \subsection*{Navigation}
@@ -299,8 +328,8 @@
 
 \end{frame}
 
-\subsection*{Situation}
-\begin{frame}
+\subsection*{Situation actuelle}
+\begin{frame}{Problèmes rencontrés}
   Retard
 \end{frame}
 
