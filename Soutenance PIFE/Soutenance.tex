@@ -108,21 +108,67 @@
 \subsection*{Robotique autonome}
 
 \begin{frame}
-  Google Car
+  \begin{tabular}{c c}
+    \begin{minipage}{0.5\linewidth}
+      \begin{figure}
+        \includegraphics[width=1.0\linewidth]{images/GoogleCar.jpg}
+        \caption{Google Car DriverLess}
+      \end{figure}
+    \end{minipage}
+    &
+    \begin{minipage}{0.5\linewidth}
+      Vélodyne
+    \end{minipage}
+  \end{tabular}
 \end{frame}
 
 \begin{frame}
-  Volvo
+  \begin{tabular}{c c}
+    \begin{minipage}{0.5\linewidth}
+      Convoi avec Leader
+    \end{minipage}
+    &
+    \begin{minipage}{0.5\linewidth}
+      \begin{figure}
+        \includegraphics[width=1.0\linewidth]{images/ConvoiVolvo.jpg}
+        \caption{Convoi de Volvo autonomes suivant un camion}
+      \end{figure}
+    \end{minipage}
+  \end{tabular}
 \end{frame}
 
 \subsection*{Thèse}
 
 \begin{frame}{Projet de thèse}
-  Page 1
+  \begin{tabular}{c c}
+    \begin{minipage}{0.5\linewidth}
+      \begin{figure}
+        \includegraphics[width=0.8\linewidth]{images/VIPALAB.jpg}
+        \caption{Un VipaLab}
+      \end{figure}
+    \end{minipage}
+    &
+    \begin{minipage}{0.5\linewidth}
+      VipaLab
+    \end{minipage}
+  \end{tabular}
 \end{frame}
 
 \begin{frame}
-  Page 2
+  Points importants :
+  \begin{itemize}
+    \begin{small}
+    \item Création de carte à partir d'espaces visités par différents robots	
+    \item Surveillance d'un environnement dynamique et inconnu	
+    \item Lien entre la vision omnidirectionelle et le controle stratégique coopératif	
+    \item Utilisation d'informations visuelles comme les informations mutuelles	
+    \item Utilisation de cartes topologiques à l'aide de capteurs externes	
+    \item Localisation par l'apparence et/ou par la 3D	
+    \item Localisation inter-robot, entre-aide	
+    \item Formation avec ou sans leader	
+    \item Suivi d'une cible à l'aide de plusieurs robots
+    \end{small}
+  \end{itemize}
 \end{frame}
 
 %% --------------
@@ -131,74 +177,93 @@
 \subsection*{Méthodes}
 
 \begin{frame}{Recherche bibliographique}
-  Comment chercher ?
-  Comment trouver ?
-  Disponibilité ?
-  Achats ?
-  Aller de publi en publi...
-  Trouver des vidéos sur le net ...
-  Site web ...
-  Notions de maths dans les thèses
-\end{frame}
-
-\subsection*{Articles}
-
-\begin{frame}{Exemple}
-%Auteurs, écriture, publication (tro, iros, \dots)
-
-Article :\\
-\begin{scriptsize}
-\mbox{
-\citeauthor{baudouin:humanoids:11}
-\citetitle{baudouin:humanoids:11}
-\cite{baudouin:humanoids:11}
-}
-\end{scriptsize}
-%\vspace{5mm}
-
-Thèse :\\
-\begin{scriptsize}
-\mbox{
-\citeauthor{Courbon09PhD}
-\citetitle{Courbon09PhD}
-\cite{Courbon09PhD}}
-\end{scriptsize}
-\vspace{5mm}
-
-
-Exemple :\\
-%\begin{tiny}
-\begin{scriptsize}
-@inproceedings\{baudouin:humanoids:11,\\
-	\hspace{5mm} author = "L. Baudouin and N. Perrin and T. Moulard and F. Lamiraux and O. Stasse and E. Yoshida",\\
-	\hspace{5mm} booktitle = "\{IEEE/RAS International Conference on Humanoid Robotics (Humanoids'11)\}",\\
-	\hspace{5mm} title = "\{Real-time Replanning Using 3D Environment for Humanoid Robot\}",\\
-	\hspace{5mm} url = "http://ubuntuone.com/6zyz487WVECpyW88tEfQz5",\\
-	\hspace{5mm} year = "2011"\\
-\}
-\end{scriptsize}
-%\end{tiny}
-
-\end{frame}
-
-\begin{frame}{Bibliographie}
-%\begin{minipage}{0.5\linewidth}
-\printbibliography
-%\end{minipage}
+  \begin{itemize}
+  \item Comment chercher ?
+  \item Comment trouver ?
+  \item Disponibilité ?
+  \item Achats ?
+  \item Aller de publi en publi...
+  \item Trouver des vidéos sur le net ...
+  \item Site web ...
+  \item Notions de maths dans les thèses
+  \end{itemize}
 \end{frame}
 
 
 \subsection*{Gestion Bibliographique}
 
 \begin{frame}{Bibliographie}
-  80 ouvrages, image de KBibTex, exemples, but, intérêts, reconnaissance
+
+  \begin{itemize}
+  \item Buts et objectifs
+  \item Intérêts %Reconnaissance
+    %\item Reconnaissance
+  \item Inconvénients
+    \vspace{5mm}
+  \item Contenu : %(121 ouvrages) :
+    \begin{itemize}
+    \item 3 livres
+    \item 11 thèses
+    \item 30 articles de journaux
+    \item 74 conférences
+    \item 3 autres
+    \end{itemize}
+  \end{itemize}
 \end{frame}
 
 \begin{frame}
-\begin{figure}
-\includegraphics[width=1.0\linewidth]{images/KBibTex.png}
-\caption{Capture d'écran de KBibTex, ligiciel libre de gestion de bibliographie}
-\end{figure}
+  \begin{figure}
+    \includegraphics[width=1.0\linewidth]{images/KBibTex.png}
+    \caption{Capture d'écran de KBibTex, ligiciel libre de gestion de bibliographie}
+  \end{figure}
+\end{frame}
+
+\subsection*{Articles}
+
+\begin{frame}{Exemple}
+  %Auteurs, écriture, publication (tro, iros, \dots)
+
+  Exemple :\\
+  \vspace{2mm}
+  %\begin{tiny}
+  \begin{scriptsize}
+    @inproceedings$\lbrace$ baudouin:humanoids:11,\\
+    \hspace{5mm} author = "L. Baudouin and N. Perrin and T. Moulard and F. Lamiraux and O. Stasse and E. Yoshida",\\
+    \hspace{5mm} booktitle = "\{IEEE/RAS International Conference on Humanoid Robotics (Humanoids'11)\}",\\
+    \hspace{5mm} title = "\{Real-time Replanning Using 3D Environment for Humanoid Robot\}",\\
+    \hspace{5mm} url = "http://ubuntuone.com/6zyz487WVECpyW88tEfQz5",\\
+    \hspace{5mm} year = "2011"\\
+    \vspace{-2mm}
+    $\rbrace$
+  \end{scriptsize}
+  %\end{tiny}
+  \vspace{5mm}
+
+  Article :\\
+  \begin{scriptsize}
+    \mbox{
+      \citeauthor{baudouin:humanoids:11}
+      \citetitle{baudouin:humanoids:11}
+      \cite{baudouin:humanoids:11}
+    }
+  \end{scriptsize}
+  %\vspace{5mm}
+
+  Thèse :\\
+  \begin{scriptsize}
+    \mbox{
+      \citeauthor{Courbon09PhD}
+      \citetitle{Courbon09PhD}
+      \cite{Courbon09PhD}}
+  \end{scriptsize}
+  \vspace{5mm}
+
+\end{frame}
+
+\begin{frame}{Bibliographie}
+  %\begin{minipage}{0.5\linewidth}
+  \printbibliography[heading=none]
+  %\end{minipage}
 \end{frame}
 
 %% --------------
@@ -207,8 +272,21 @@ Exemple :\\
 
 \subsection*{Vision}
 \begin{frame}{Reconstruction 3D}
-  Vidéo du programme\\
-  Erreurs
+  \begin{tabular}{c c}
+    \begin{minipage}{0.5\linewidth}
+      \begin{figure}
+        \includegraphics[width=0.9\linewidth]{images/createimages.png}
+        \caption{Simulation d'un environnement}
+      \end{figure}
+    \end{minipage}
+    &
+    \begin{minipage}{0.5\linewidth}
+      \begin{figure}
+        \includegraphics[width=1.0\linewidth]{images/buildfromvideo.png}
+        \caption{Reconstruction à partir des points 2D}
+      \end{figure}
+    \end{minipage}
+  \end{tabular}
 \end{frame}
 
 \subsection*{Création de cartes}
@@ -223,23 +301,41 @@ Exemple :\\
 
 \subsection*{Situation}
 \begin{frame}
-Retard
+  Retard
 \end{frame}
 
 %% --------------
 
 \section{Conclusion}
-\subsection*{Suite des travaux}
-\begin{frame}{}
-  \begin{itemize}
-  \item 123
-  \item 456
-  \end{itemize}
+\subsection*{Objectifs}
+\begin{frame}{Suite des travaux}
+  \begin{tabular}{c c}
+    \begin{minipage}{0.5\linewidth}
+      A mettre en place en deux ans :
+      \begin{enumerate}
+      \item Navigation Classique
+      \item Navigation Topologique %Graphe : Noeuds + distance (arc)
+      \item Mise en Formation
+      \item Déplacements en Formation
+      \item Survaillance \& Suivi de Cible
+      \end{enumerate}
+    \end{minipage}
+    &
+    \begin{minipage}{0.5\linewidth}
+      \begin{figure}
+        \includegraphics[width=0.8\linewidth]{images/navigation.jpg}\\
+        \includegraphics[width=0.8\linewidth]{images/formation.jpg}
+      \end{figure}
+    \end{minipage}
+  \end{tabular}
+
 \end{frame}
 
-\subsection*{Première Conclusion}
+\subsection*{Six mois de Stage}
 \begin{frame}{Conclusion}
-
+  \begin{figure}
+    \includegraphics[width=0.7\linewidth]{images/conclusion.png}
+  \end{figure}
 \end{frame}
 
 
