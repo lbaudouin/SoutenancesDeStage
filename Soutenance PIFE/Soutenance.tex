@@ -136,7 +136,14 @@
 \begin{frame}
   \begin{tabular}{c c}
     \begin{minipage}{0.5\linewidth}
-      Convoi avec Leader
+      Convoi avec \textit{Leader} :
+      \begin{itemize}
+      \item Nécessite un camion
+      \item Sur route uniquement
+      \item Nombreux capteurs
+      \item Formation modifiable
+      \item Haute vitesse (85 km/h)
+      \end{itemize}
     \end{minipage}
     &
     \begin{minipage}{0.5\linewidth}
@@ -155,14 +162,58 @@
     \begin{minipage}{0.5\linewidth}
       \begin{figure}
         \includegraphics[width=0.8\linewidth]{images/VIPALAB.jpg}
-        \caption{Un VipaLab}
+        \caption{Un VipaLab produit par la société APOJEE}
       \end{figure}
     \end{minipage}
     &
     \begin{minipage}{0.5\linewidth}
-      VipaLab
+      Caractéristiques :
+      \begin{itemize}
+      \item 100\% électrique
+      \item 4 roues motrices
+      \item 400 kg (hors batteries)
+      \item Vitesse maxi : 30km/h
+      \item 8 batteries 12V
+      \item 3h d'autonomie
+      \item Dimensions : $196\times127.3\times211$
+      \end{itemize}
     \end{minipage}
   \end{tabular}
+  %Guidage autonome réalisé par des capteurs de précision (doublage par des capteurs bas coût):
+%- GPS centimétrique (+ GPS bas coût).
+%- Caméras.
+%- Centrale inertielle (+ Gyromètre & Accéléromètre bas coûts).
+%- Odomètres sur roues (+ Odomètre sur variateur).
+%Sécurité assurée par trois niveaux de capteurs :
+%- Pare-choc sensitif.
+%- Capteurs ultrason.
+%- Radar à balayage laser.
+%
+\end{frame}
+
+\begin{frame}
+  Vision :
+  \begin{itemize}
+    \begin{small}
+    \item Création de carte à partir d'espaces visités par différents robots	
+    \item Utilisation d'informations visuelles comme les informations mutuelles	
+    \item Localisation par l'apparence et/ou par la 3D	
+    \item Localisation inter-robot
+    \item Lien entre la vision omnidirectionnelle et le contrôle stratégique coopératif	
+    \end{small}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  Navigation :
+  \begin{itemize}
+    \begin{small}
+    \item Surveillance d'un environnement dynamique et inconnu	
+    \item Utilisation de cartes topologiques %à l'aide de capteurs externes	
+    \item Formation avec ou sans leader	
+    \item Suivi d'une cible à l'aide de plusieurs robots
+    \end{small}
+  \end{itemize}
 \end{frame}
 
 \subsection*{Environnement}
@@ -175,39 +226,46 @@
 % PAVIN is a site dedicated for intelligent urban vehicles. It is composed of 5000m2 space representing typical situation in urban environment: 317m of streets (asphalt) and 264m of open environment (sloppy ground, rough track). 
 \end{frame}
 
-\begin{frame}
-  Points importants :
-  \begin{itemize}
-    \begin{small}
-    \item Création de carte à partir d'espaces visités par différents robots	
-    \item Surveillance d'un environnement dynamique et inconnu	
-    \item Lien entre la vision omnidirectionelle et le controle stratégique coopératif	
-    \item Utilisation d'informations visuelles comme les informations mutuelles	
-    \item Utilisation de cartes topologiques à l'aide de capteurs externes	
-    \item Localisation par l'apparence et/ou par la 3D	
-    \item Localisation inter-robot, entre-aide	
-    \item Formation avec ou sans leader	
-    \item Suivi d'une cible à l'aide de plusieurs robots
-    \end{small}
-  \end{itemize}
-\end{frame}
-
 %% --------------
 
 \section{Recherche}
 \subsection*{Méthodes}
 
 \begin{frame}{Recherche bibliographique}
+\begin{tabular}{c c}
+\begin{minipage}{0.6\linewidth}
   \begin{itemize}
-  \item Comment chercher ?
-  \item Comment trouver ?
-  \item Disponibilité ?
-  \item Achats ?
-  \item Aller de publi en publi...
-  \item Trouver des vidéos sur le net ...
-  \item Site web ...
-  \item Notions de maths dans les thèses
+  \item Où chercher ?
+  \begin{itemize}
+  \item Google Scholar
+  \item YouTube 
+  \item Sites Personnels
+  \item Conférences
   \end{itemize}
+  \item Comment trouver ?
+  \begin{itemize}
+  \item Une publication / un livre
+  \item Un nom
+  \item Un robot
+  \end{itemize}
+  \item Disponibilité ?
+  \begin{itemize}
+  \item Site du laboratoire/université
+  \item Site Personnel
+  \item Achat
+  \end{itemize}
+  %\item Notions de maths dans les thèses
+  \end{itemize}
+  \end{minipage}
+  &
+  \begin{minipage}{0.4\linewidth}
+  \begin{figure}
+  \includegraphics[width=0.9\linewidth]{images/GoogleScholar.png}
+  \vspace{3mm}
+  \includegraphics[width=0.5\linewidth]{images/Book.png}
+  \end{figure}
+  \end{minipage}
+  \end{tabular}
 \end{frame}
 
 
@@ -215,13 +273,23 @@
 
 \begin{frame}{Bibliographie}
 
+\begin{tabular}{c c}
+\begin{minipage}{0.4\linewidth}
+\begin{figure}
+\includegraphics[width=0.6\linewidth]{images/bibliographie.jpg}
+\vspace{3mm}
+\includegraphics[width=0.9\linewidth]{images/publications.jpg}
+\end{figure}
+\end{minipage}
+&
+\begin{minipage}{0.6\linewidth}
   \begin{itemize}
   \item Buts et objectifs
   \item Intérêts %Reconnaissance
     %\item Reconnaissance
   \item Inconvénients
     \vspace{5mm}
-  \item Contenu : %(121 ouvrages) :
+  \item Contenu actuel : %(121 ouvrages) :
     \begin{itemize}
     \item 3 livres
     \item 11 thèses
@@ -230,12 +298,14 @@
     \item 3 autres
     \end{itemize}
   \end{itemize}
+\end{minipage}
+\end{tabular}
 \end{frame}
 
 \begin{frame}
   \begin{figure}
     \includegraphics[width=1.0\linewidth]{images/KBibTex.png}
-    \caption{Capture d'écran de KBibTex, ligiciel libre de gestion de bibliographie}
+    \caption{Capture d'écran de KBibTex, logiciel libre de gestion de bibliographie avec recherche intégrée}
   \end{figure}
 \end{frame}
 
@@ -281,7 +351,7 @@
 
 \end{frame}
 
-\begin{frame}{Bibliographie}
+\begin{frame}{Exemple}
   %\begin{minipage}{0.5\linewidth}
   \printbibliography[heading=none]
   %\end{minipage}
@@ -346,7 +416,7 @@ Programmes ou librairies testés :
       \item Navigation Topologique %Graphe : Noeuds + distance (arc)
       \item Mise en Formation
       \item Déplacements en Formation
-      \item Survaillance \& Suivi de Cible
+      \item Surveillance \& Suivi de Cible
       \end{enumerate}
     \end{minipage}
     &
